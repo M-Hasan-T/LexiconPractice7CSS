@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+@font-face {
+  @font-face {
+    font-family: "Trickster";
+    src: local("Trickster"),
+      url("trickster-COLRv1.otf") format("opentype") tech(color-COLRv1),
+      url("trickster-outline.otf") format("opentype"),
+      url("trickster-outline.woff") format("woff");
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #181515;
+}
+
+/* Add your styles below */
+main {
+  text-align: center;
+  font-family: "Trade Gothic";
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: blanchedalmond;
+  font-family: "Monotype Grotesque";
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-top: 1rem;
+}
+
+p {
+  color: blanchedalmond;
+  font-family: "Monotype Grotesque";
+  letter-spacing: 2px;
+  margin-top: 1rem;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
